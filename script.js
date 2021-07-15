@@ -9,11 +9,11 @@ function load() {
     divtempo.innerHTML = tempo
     setTimeout(load, 1000)
     if (hor <= 12 && hor >= 5) {
-        document.body.style.backgroundImage = "url('manhã.png')"; 
+        document.body.style.backgroundImage = "url('images/manhã.png')"; 
     } else if (hor < 18 && hor > 12) {
-        document.body.style.backgroundImage = "url('tarde.jpg')";
+        document.body.style.backgroundImage = "url('images/tarde.jpg')";
     } else {
-        document.body.style.backgroundImage = "url('noite.png')";
+        document.body.style.backgroundImage = "url('images/noite.png')";
     }
 }
 
