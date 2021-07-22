@@ -41,7 +41,7 @@ Uses onload() event to change the clock numbers.
     transform: translate(-50%, -50%);
 }
 ```
-- Use <b>getHours(), getMinutes()</b> and <b>getSeconds()</b>method to get the current system hours, minutes and seconds.
+- Use <b>getHours(), getMinutes()</b> and <b>getSeconds()</b> method to get the current system hours, minutes and seconds.
 ```js
 var hor = String(new Date().getHours())
 var min = String(new Date().getMinutes())
