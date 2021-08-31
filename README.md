@@ -32,7 +32,7 @@ Uses onload() event to change the clock numbers.
 
 ### What I learned📝
 
-- Use <b>top, left, position</b> and <b>transform</b> property to center a div element on screen.
+- Use <strong>top, left, position</strong> and <b>transform</b> property to center a div element on screen.
 ```css
 #tempo {
     position: absolute;
@@ -41,7 +41,7 @@ Uses onload() event to change the clock numbers.
     transform: translate(-50%, -50%);
 }
 ```
-- Use <b>getHours(), getMinutes()</b> and <b>getSeconds()</b> method to get the current system hours, minutes and seconds.
+- Use <strong>getHours(), getMinutes()</strong> and <b>getSeconds()</b> method to get the current system hours, minutes and seconds.
 ```js
 var hor = String(new Date().getHours())
 var min = String(new Date().getMinutes())
