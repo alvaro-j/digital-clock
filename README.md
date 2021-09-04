@@ -32,7 +32,7 @@ Uses onload() event to change the clock numbers.
 
 ### What I learned📝
 
-- Use <strong>top, left, position</strong> and <b>transform</b> property to center a div element on screen.
+- Use <strong>top, left, position</strong> and <strong>transform</strong> property to center a div element on screen.
 ```css
 #tempo {
     position: absolute;
