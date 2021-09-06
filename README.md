@@ -8,22 +8,22 @@ Uses onload() event to change the clock numbers.
 ## Table of contents✒️
 
 - [Overview](#overview)🎯
-  - [Links](#links)
+  - [Links](#links)🔗
 - [My process](#my-process)🧩
-  - [Built with](#built-with)
+  - [Built with](#built-with)🔨
   - [What I learned](#what-i-learned)📝
   - [Useful resources](#useful-resources)
 - [Author](#author)🙋🏻
 
 ## Overview🎯
 
-### Links
+### Links🔗
 
 - Live Site URL: [Digital clock](https://alvaro-j.github.io/digital-clock/)
 
 ## My process🧩
 
-### Built with
+### Built with🔨
 
 - Semantic HTML5 markup
 - CSS custom properties
@@ -41,7 +41,7 @@ Uses onload() event to change the clock numbers.
     transform: translate(-50%, -50%);
 }
 ```
-- Use <strong>getHours(), getMinutes()</strong> and <b>getSeconds()</b> method to get the current system hours, minutes and seconds.
+- Use <strong>getHours(), getMinutes()</strong> and <strong>getSeconds()</strong> method to get the current system hours, minutes and seconds.
 ```js
 var hor = String(new Date().getHours())
 var min = String(new Date().getMinutes())
